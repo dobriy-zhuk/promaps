@@ -133,7 +133,7 @@ public class MyActivity extends Activity implements LocationListener, GoogleMap.
             @Override
             public void run() {
                 try {
-                    Parse.initialize(MyActivity.this, "CHDKAVDx0BeVNqF5r78zP43B8TvFavNEgxhfWzlz", "QZetZKqFu6k8uBo5Hs10pmwg3F3cV4XJ7c9KmFLi");
+                    Parse.initialize(MyActivity.this, "My ID", "My ID");
                     ParseAnalytics.trackAppOpened(getIntent());
                 } catch (Exception e) {
                     e.printStackTrace();
