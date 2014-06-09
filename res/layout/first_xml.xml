@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Запуск"
+            android:layout_above="@+id/about"
+            android:layout_centerVertical="true"
+            android:id="@+id/button_start"
+            />
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="О приложении"
+            android:layout_centerVertical="true"
+            android:id="@+id/about"
+            />
+
+    <TextView
+            android:layout_width="169dp"
+            android:layout_height="43dp"
+            android:text="Вы уже сэкономили:"
+            android:id="@+id/textView"
+            android:layout_below="@+id/about"
+            />
+
+    <TextView
+            android:layout_width="236dp"
+            android:layout_height="86dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="5000 руб."
+            android:layout_below="@+id/textView"
+            android:id="@+id/TextEconomy"
+            android:textSize="40sp"
+            android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

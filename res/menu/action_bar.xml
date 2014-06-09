@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+   <!-- Settings, should always be in the overflow -->
+    <item android:id="@+id/action_estimate"
+          android:icon="@drawable/google_play"
+          android:title="Оценить"
+          android:showAsAction="always"
+          />
+
+    <item android:id="@+id/action_question"
+          android:icon="@drawable/question"
+          android:title="Информация"
+          android:showAsAction="always"
+            />
+
+
+
+
+</menu>

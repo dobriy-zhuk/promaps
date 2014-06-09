@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.dz.promaps.MyActivity" >
+
+
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/about_azs"
+            android:visibility="gone">
+
+        <TextView
+            android:id="@+id/azs_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="АЗС: "
+            android:layout_alignParentLeft="true"
+            />
+        <TextView
+                android:id="@+id/cost_text"
+                android:layout_width="159dp"
+                android:layout_height="wrap_content"
+                android:text="Цена AI95: "
+                android:layout_gravity="center_horizontal"
+                android:layout_below="@+id/distance_text"
+                android:layout_alignParentLeft="true"/>
+        <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ratingBar"
+                android:layout_gravity="center_horizontal"
+                android:numStars="5"
+                android:layout_below="@+id/cost_text"
+                android:layout_alignParentLeft="true"
+                android:rating="4"/>
+
+        <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="голосовать "
+                android:id="@+id/voice"
+                android:layout_above="@+id/mistake"
+                android:layout_alignParentRight="true"/>
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/mistake"
+                android:text="исправить цену "
+                android:layout_below="@+id/ratingBar"
+                />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Время ="
+                android:id="@+id/time_text"
+                android:layout_alignRight="@+id/ratingBar"
+                android:layout_below="@+id/distance_text"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Расстояние ="
+                android:id="@+id/distance_text"
+                android:layout_alignRight="@+id/ratingBar"
+                />
+
+    </RelativeLayout>
+
+    <fragment
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            class="com.google.android.gms.maps.MapFragment"/>
+
+</LinearLayout>
