@@ -82,7 +82,7 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="113" selection-start="1282" selection-end="1282" vertical-scroll-proportion="0.7338552" vertical-offset="0" max-vertical-offset="1035">
+            <state line="12" column="15" selection-start="421" selection-end="421" vertical-scroll-proportion="-0.6731898" vertical-offset="524" max-vertical-offset="1035">
               <folding>
                 <element signature="e#1200#1218#0" expanded="true" />
                 <element signature="e#1365#1383#0" expanded="true" />
@@ -119,11 +119,11 @@
       <file leaf-file-name="MyActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/dz/promaps/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="177" column="19" selection-start="6013" selection-end="6013" vertical-scroll-proportion="0.0" vertical-offset="1035" max-vertical-offset="7395">
+            <state line="177" column="19" selection-start="5943" selection-end="5943" vertical-scroll-proportion="0.0" vertical-offset="1035" max-vertical-offset="7395">
               <folding>
                 <element signature="e#2075#2092#0" expanded="true" />
-                <element signature="e#5901#6131#0" expanded="true" />
-                <element signature="e#6120#6121#0" expanded="true" />
+                <element signature="e#5831#6061#0" expanded="true" />
+                <element signature="e#6050#6051#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -756,8 +756,8 @@
         <state line="22" column="30" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1125">
           <folding>
             <element signature="e#2075#2092#0" expanded="true" />
-            <element signature="e#5901#6131#0" expanded="true" />
-            <element signature="e#6120#6121#0" expanded="true" />
+            <element signature="e#5831#6061#0" expanded="true" />
+            <element signature="e#6050#6051#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -789,8 +789,8 @@
         <state line="56" column="51" selection-start="1790" selection-end="1790" vertical-scroll-proportion="0.0" vertical-offset="609" max-vertical-offset="1170">
           <folding>
             <element signature="e#2075#2092#0" expanded="true" />
-            <element signature="e#5901#6131#0" expanded="true" />
-            <element signature="e#6120#6121#0" expanded="true" />
+            <element signature="e#5831#6061#0" expanded="true" />
+            <element signature="e#6050#6051#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -822,8 +822,8 @@
         <state line="20" column="0" selection-start="611" selection-end="611" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="630">
           <folding>
             <element signature="e#2075#2092#0" expanded="true" />
-            <element signature="e#5901#6131#0" expanded="true" />
-            <element signature="e#6120#6121#0" expanded="true" />
+            <element signature="e#5831#6061#0" expanded="true" />
+            <element signature="e#6050#6051#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -855,8 +855,8 @@
         <state line="18" column="0" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
           <folding>
             <element signature="e#2075#2092#0" expanded="true" />
-            <element signature="e#5901#6131#0" expanded="true" />
-            <element signature="e#6120#6121#0" expanded="true" />
+            <element signature="e#5831#6061#0" expanded="true" />
+            <element signature="e#6050#6051#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -888,8 +888,8 @@
         <state line="18" column="38" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="420">
           <folding>
             <element signature="e#2075#2092#0" expanded="true" />
-            <element signature="e#5901#6131#0" expanded="true" />
-            <element signature="e#6120#6121#0" expanded="true" />
+            <element signature="e#5831#6061#0" expanded="true" />
+            <element signature="e#6050#6051#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -921,8 +921,8 @@
         <state line="4" column="0" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="465">
           <folding>
             <element signature="e#2075#2092#0" expanded="true" />
-            <element signature="e#5901#6131#0" expanded="true" />
-            <element signature="e#6120#6121#0" expanded="true" />
+            <element signature="e#5831#6061#0" expanded="true" />
+            <element signature="e#6050#6051#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1145,18 +1145,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dz/promaps/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="177" column="19" selection-start="6013" selection-end="6013" vertical-scroll-proportion="0.0" vertical-offset="1035" max-vertical-offset="7395">
+        <state line="177" column="19" selection-start="5943" selection-end="5943" vertical-scroll-proportion="0.0" vertical-offset="1035" max-vertical-offset="7395">
           <folding>
             <element signature="e#2075#2092#0" expanded="true" />
-            <element signature="e#5901#6131#0" expanded="true" />
-            <element signature="e#6120#6121#0" expanded="true" />
+            <element signature="e#5831#6061#0" expanded="true" />
+            <element signature="e#6050#6051#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="113" selection-start="1282" selection-end="1282" vertical-scroll-proportion="0.7338552" vertical-offset="0" max-vertical-offset="1035">
+        <state line="12" column="15" selection-start="421" selection-end="421" vertical-scroll-proportion="-0.6731898" vertical-offset="524" max-vertical-offset="1035">
           <folding>
             <element signature="e#1200#1218#0" expanded="true" />
             <element signature="e#1365#1383#0" expanded="true" />
