@@ -15,7 +15,7 @@ import android.view.View;
 import android.widget.*;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-
+import com.google.android.gms.ads.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
@@ -30,6 +30,8 @@ public class PlayActivity extends Activity{
     private Double MAX_DISTANCE;
     private Double RESIDUE=5.0;
     private String MARKA="AI95";
+
+    private AdView adView;//создание баннера рекламы
 
     SharedPreferences preferences;
     SharedPreferences.Editor editor;
@@ -58,7 +60,9 @@ public class PlayActivity extends Activity{
     initFirstAdapter();
     initSecondAdapter();
 
-}
+
+
+    }
 
     protected void onStart(){
         super.onStart();

@@ -9,6 +9,8 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import com.google.android.gms.ads.*;
+
 
 /**
  * Created by dz on 25.04.14.
@@ -18,6 +20,8 @@ public class FirstActivity extends Activity {
     TextView score_text;
     Button button_start;
     Button about;
+    private AdView adView;//создание баннера рекламы
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

@@ -7,6 +7,7 @@ import android.app.Dialog;
 import android.app.FragmentManager;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.location.Criteria;
@@ -68,7 +69,7 @@ public class MyActivity extends Activity implements LocationListener, GoogleMap.
 
     RelativeLayout Rel;
     TextView cost_text, azs_text, distance_text, time_text;
-    Button mistake, voice;
+    Button mistake, voice, addAzs;
     RatingBar ratingBar;
 
 
@@ -170,6 +171,14 @@ public class MyActivity extends Activity implements LocationListener, GoogleMap.
             }
         });
 
+        addAzs = (Button)findViewById(R.id.ButtonAdd);
+        addAzs.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MyActivity.this, AddAzs.class);
+                startActivity(intent);
+            }
+        });
     }
 
     public void showRatingDialog() {

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/linearlayout"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:padding="20dip" >
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Введите название АЗС"/>
+
+    <EditText
+            android:layout_width="331dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/azs_name"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Введите цену АИ95"/>
+
+    <EditText
+            android:layout_width="331dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/new95"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Введите цену АИ92"/>
+
+    <EditText
+            android:layout_width="331dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/new92"/>
+
+</LinearLayout>

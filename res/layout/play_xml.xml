@@ -54,7 +54,8 @@
                 android:text="Ваша запись"
                 />
 
-        <ImageButton
+
+            <ImageButton
                 android:layout_width="106dp"
                 android:layout_height="80dp"
                 android:id="@+id/btn_speak"
